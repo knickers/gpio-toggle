@@ -2,7 +2,7 @@
 set -e
 
 if [ -z "$1" ]; then
-	echo "Usage: $0 gpioPinNumber <value>"
+	echo "Usage: $0 [GPIO Pin Number] <value>"
 	echo
 	echo 'Value is optional. Use 0 or 1. If not specified, the value is toggled'
 	echo
